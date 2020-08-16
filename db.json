@@ -1,0 +1,25 @@
+{
+  "resto": [
+    {
+      "id": 1,
+      "Address": "31 saint germain street",
+      "name": "Ruchi",
+      "mobile": "333-555-2121",
+      "email": "niwalkar.r@northeastern.edu"
+    },
+    {
+      "id": 2,
+      "Address": "65 Bellevue street",
+      "name": "Nikita",
+      "mobile": "222-515-6767",
+      "email": "gundyal.n@northeastern.edu"
+    },
+    {
+      "id": 3,
+      "Address": "Beacon street",
+      "name": "Rini",
+      "mobile": "883-444-5500",
+      "email": "john.r@northeastern.edu"
+    }
+  ]
+}
