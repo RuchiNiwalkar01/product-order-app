@@ -1,1 +1,18 @@
-<p>list-restaurant works!</p>
+<table class="table">
+  <thead class="thead-info">
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let resto of restoArray">
+      <td>{{ resto.id }}</td>
+      <td>{{ resto.name }}</td>
+      <td>{{ resto.Address }}</td>
+      <td>{{ resto.email }}</td>
+    </tr>
+  </tbody>
+</table>

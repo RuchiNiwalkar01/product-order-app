@@ -7,10 +7,23 @@ import { UpdateRestaurantComponent } from './update-restaurant/update-restaurant
 import { ListRestaurantComponent } from './list-restaurant/list-restaurant.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
-  declarations: [AppComponent, AddRestaurantComponent, UpdateRestaurantComponent, ListRestaurantComponent, LoginComponent, RegisterComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    AddRestaurantComponent,
+    UpdateRestaurantComponent,
+    ListRestaurantComponent,
+    LoginComponent,
+    RegisterComponent,
+  ],
+  imports: [
+    BrowserModule,
+    ReactiveFormsModule,
+    AppRoutingModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -20,6 +20,12 @@
       "name": "Rini",
       "mobile": "883-444-5500",
       "email": "john.r@northeastern.edu"
+    },
+    {
+      "name": "Riya",
+      "Address": "Ganesh Kripa",
+      "email": "riya.n@gmail.com",
+      "id": 4
     }
   ]
 }
