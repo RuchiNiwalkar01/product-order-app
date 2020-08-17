@@ -1,7 +1,22 @@
 <div class="jumbotron">
-  <h1>Add Restaurants</h1>
+  <h1>ADD RESTAURANTS</h1>
 </div>
-
+<div
+  *ngIf="alert == true"
+  class="alert alert-info alert-dismissible fade show"
+  role="alert"
+>
+  <strong>Success!</strong> Your data has been added succesfully !
+  <button
+    (click)="closeAlert()"
+    type="button"
+    class="close"
+    data-dismiss="alert"
+    aria-label="Close"
+  >
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 <form [formGroup]="restaurantForm" (ngSubmit)="createResto()">
   <div class="form-group">
     <label>Name</label>
@@ -33,5 +48,5 @@
     />
   </div>
 
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-info">Submit</button>
 </form>
