@@ -8,18 +8,16 @@
       "email": "niwalkar.r@northeastern.edu"
     },
     {
-      "id": 2,
+      "name": "Nikita Gundyal",
       "Address": "65 Bellevue street",
-      "name": "Nikita",
-      "mobile": "222-515-6767",
-      "email": "gundyal.n@northeastern.edu"
+      "email": "gundyal.n@northeastern.edu",
+      "id": 2
     },
     {
-      "id": 3,
+      "name": "RiniJohn",
       "Address": "Beacon street",
-      "name": "Rini",
-      "mobile": "883-444-5500",
-      "email": "john.r@northeastern.edu"
+      "email": "john.r@northeastern.edu",
+      "id": 3
     },
     {
       "name": "Riya",

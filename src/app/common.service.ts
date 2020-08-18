@@ -15,4 +15,12 @@ export class CommonService {
   addRestaurants(data) {
     return this._http.post(this.URL, data);
   }
+
+  getCurrentRestaurantId(id) {
+    return this._http.get(`${this.URL}/${id}`);
+  }
+
+  updateRestaurantById(id, data) {
+    return this._http.put(`${this.URL}/${id}`, data);
+  }
 }

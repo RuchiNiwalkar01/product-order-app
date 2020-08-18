@@ -12,13 +12,14 @@ const routes: Routes = [
     component: AddRestaurantComponent,
     path: 'add',
   },
-  {
-    component: UpdateRestaurantComponent,
-    path: 'update',
-  },
+
   {
     component: ListRestaurantComponent,
     path: 'list',
+  },
+  {
+    component: UpdateRestaurantComponent,
+    path: 'update/:id',
   },
   {
     component: LoginComponent,
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     component: HomepageComponent,
     path: 'home',
+  },
+  {
+    component: HomepageComponent,
+    path: '',
   },
 ];
 
