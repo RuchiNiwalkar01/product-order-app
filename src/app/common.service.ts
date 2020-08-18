@@ -6,6 +6,7 @@ import { TitleCasePipe } from '@angular/common';
 })
 export class CommonService {
   URL = 'http://localhost:4000/resto';
+  regURL = 'http://localhost:4000/users';
   constructor(private _http: HttpClient) {}
 
   getRestaurantList() {
@@ -22,5 +23,9 @@ export class CommonService {
 
   updateRestaurantById(id, data) {
     return this._http.put(`${this.URL}/${id}`, data);
+  }
+
+  registerNewUser(data) {
+    return this._http.post(this.regURL, data);
   }
 }

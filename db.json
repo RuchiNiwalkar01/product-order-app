@@ -8,7 +8,7 @@
       "email": "niwalkar.r@northeastern.edu"
     },
     {
-      "name": "Nikita Gundyal",
+      "name": "Nikita G",
       "Address": "65 Bellevue street",
       "email": "gundyal.n@northeastern.edu",
       "id": 2
@@ -20,7 +20,7 @@
       "id": 3
     },
     {
-      "name": "Riya",
+      "name": "Riya Niwalkar",
       "Address": "Ganesh Kripa",
       "email": "riya.n@gmail.com",
       "id": 4
@@ -30,6 +30,14 @@
       "Address": "50 Seaport View",
       "email": "godkar.s@gmail.com",
       "id": 5
+    }
+  ],
+  "users": [
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "test@1234",
+      "id": 1
     }
   ]
 }
