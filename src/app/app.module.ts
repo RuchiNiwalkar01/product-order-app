@@ -9,6 +9,9 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomepageComponent } from './homepage/homepage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,12 +20,15 @@ import { ReactiveFormsModule } from '@angular/forms';
     ListRestaurantComponent,
     LoginComponent,
     RegisterComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
+    MDBBootstrapModule.forRoot(),
     ReactiveFormsModule,
     AppRoutingModule,
     HttpClientModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -5,6 +5,7 @@ import { UpdateRestaurantComponent } from './update-restaurant/update-restaurant
 import { ListRestaurantComponent } from './list-restaurant/list-restaurant.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     component: RegisterComponent,
     path: 'register',
+  },
+  {
+    component: HomepageComponent,
+    path: 'home',
   },
 ];
 
